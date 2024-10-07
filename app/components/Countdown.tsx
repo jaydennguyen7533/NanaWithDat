@@ -36,11 +36,7 @@ function CountdownComp() {
             className="bg-[#00000021] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
             style={{ backdropFilter: "blur(6px)" }}
           />
-          {/*<RevealWrapper duration={4000} origin="bottom">*/}
-
-          {/*</RevealWrapper>*/}
-          <div className="relative z-20">
-            <RevealWrapper duration={1500} origin="right">
+          <div className="relative z-20 animate__animated animate__fadeInBottomRight">
               <p className="text-sm font-light">WEDDING INVITATION</p>
               <h1 className="text-3xl font-light mt-2 mb-4">Đạt & Nga</h1>
               <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
@@ -56,7 +52,6 @@ function CountdownComp() {
                   />
                 </p>
               </div>
-            </RevealWrapper>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ function Gallery() {
               </p>
             </RevealWrapper>
           </div>
-          <RevealWrapper origin="right" duration={1500}>
+          <RevealWrapper origin="top" duration={1500}>
             <img
               src="/images/gallery/bigGrid.jpg"
               alt="big-grid"

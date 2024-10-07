@@ -48,7 +48,7 @@ function Reservation() {
   return (
     <section id="reservation">
       <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-4">
-        <RevealWrapper duration={2500} origin="bottom" className="space-y-8">
+        <RevealWrapper duration={2500} origin="bottom">
           <h1 className="text-xl italic font-light text-center">
             Reservation & Wishes
           </h1>

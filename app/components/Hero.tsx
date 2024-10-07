@@ -24,8 +24,8 @@ function Hero({
             <div
                 className="min-h-screen bg-[url('/images/hero/bg.jpg')] bg-cover bg-center text-white relative opacity-80">
                 <div className="absolute inset-0 z-10"/>
-                <div className="flex flex-col justify-between py-28 px-12 text-center z-20 relative h-screen">
-                    <RevealWrapper duration={4000} origin="top">
+                <div className="animate__animated animate__fadeInLeft flex flex-col justify-between py-28 px-12 text-center z-20 relative h-screen">
+                    {/*<RevealWrapper duration={4000} origin="top">*/}
                         <p className="font-extralight text-[1rem]">The Wedding</p>
                         <h1 className="text-5xl font-light mt-2 nameStyle">Khắc Đạt <img
                             src="/images/hero/love-icon.gif"
@@ -34,8 +34,8 @@ function Hero({
                         <p className="font-extralight text-[0.8rem] mt-4">
                             Monday, 20 April 2069
                         </p>
-                    </RevealWrapper>
-                    <RevealWrapper duration={4000} origin="bottom">
+                    {/*</RevealWrapper>*/}
+                    {/*<RevealWrapper duration={4000} origin="bottom">*/}
 
                         <div className="flex flex-col items-center gap-2">
                             <p className="text-[0.8rem]">Mercure Bandung City Center</p>
@@ -53,7 +53,7 @@ function Hero({
                                 <img src="/images/hero/start.gif" className="w-48 h-12" alt="My GIF"/>
                             </a>
                         </div>
-                    </RevealWrapper>
+                    {/*</RevealWrapper>*/}
                 </div>
             </div>
         </section>

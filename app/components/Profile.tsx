@@ -25,7 +25,7 @@ function Profile() {
               </p>
             </RevealWrapper>
           </div>
-          <RevealWrapper duration={1500} origin="right">
+          <RevealWrapper duration={1500} origin="top">
             <img
               src="/images/profile/women.jpg"
               alt="Retha"
@@ -56,7 +56,7 @@ function Profile() {
           </a>
         </div>
         <div className="grid grid-cols-2 mt-20">
-          <RevealWrapper duration={1500} origin="left">
+          <RevealWrapper duration={1500} origin="top">
             <img
               src="/images/profile/man.jpg"
               alt="Akbar"

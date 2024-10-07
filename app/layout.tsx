@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Merriweather } from "next/font/google";
+import 'animate.css/animate.min.css';
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
@@ -8,8 +9,8 @@ const merriweather = Merriweather({
 });
 
 export const metadata = {
-  title: "Akbar & Retha - Wedding Invitation",
-  description: "Undangan Pernikahan Akbar & Retha",
+  title: "Khac Dat & Chu Nga - Wedding Invitation",
+  description: "Khac Dat & Chu Nga - Wedding Invitation",
 };
 
 export default function RootLayout({
