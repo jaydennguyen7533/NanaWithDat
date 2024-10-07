@@ -25,8 +25,6 @@ export default function Home() {
                 <Hero setCurrentOverflow={setCurrentOverflow}/>
             </RevealWrapper>
             <Countdown/>
-            <ArRum/>
-            <Profile/>
             <WeddingEvents/>
             <Reservation/>
             <Gallery/>
