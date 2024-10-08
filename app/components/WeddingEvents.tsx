@@ -16,9 +16,9 @@ function WeddingEvents() {
                     <RevealWrapper duration={1500} origin="bottom">
                         <div className="mt-10">
                             <img
-                                src="/images/weddingEvents/akad.jpg"
-                                alt="akad"
-                                className="w-full h-72 object-cover rounded-t-[1.25rem]"
+                                src="/images/weddingEvents/groom.JPG"
+                                alt="groom"
+                                className="groom-event-img w-full h-80 object-cover rounded-t-[1.25rem]"
                             />
                             <div className="flex">
                                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
@@ -56,9 +56,9 @@ function WeddingEvents() {
                     <RevealWrapper duration={1500} origin="bottom">
                         <div className="mt-6">
                             <img
-                                src="/images/weddingEvents/resepsi.jpg"
+                                src="/images/weddingEvents/bride.JPG"
                                 alt="akad"
-                                className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
+                                className="bride-event-img w-full h-72 object-cover rounded-t-[1.25rem] object-left"
                             />
                             <div className="flex">
                                 <div
@@ -88,7 +88,7 @@ function WeddingEvents() {
                                     </a>
                                 </div>
                                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                                    <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[1rem] tracking-[5px]">
+                                    <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] sm:-translate-x-[0rem] -translate-x-[1rem] tracking-[5px]">
                                         Bride
                                     </p>
                                 </div>
