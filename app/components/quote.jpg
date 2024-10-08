@@ -81,17 +81,12 @@ function Gallery() {
                     }}
                 >
                     <Image
-                        src="/images/gallery/quote.JPG"
+                        src="/images/gallery/quote.jpg"
                         width="200"
                         height="100"
                         alt={"aa"}
                         onClick={handleClickImage}
                     />
-                    {/*<img*/}
-                    {/*    src={"/images/gallery/quote.JPG"}*/}
-                    {/*    alt={"ttessst"}*/}
-                    {/*    onClick={handleClickImage}*/}
-                    {/*/>*/}
                 </div>
             )}
         </section>
