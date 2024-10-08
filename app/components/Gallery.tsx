@@ -6,10 +6,12 @@ import {images} from "next/dist/build/webpack/config/blocks/images";
 
 function Gallery() {
     const [showFullSize, setShowFullSize] = useState(false);
+    const [srcImg, setSrcImg] = useState("");
 
-    const handleClickImage = (img: any) => {
-        // console.log(img.target.src)
+    const handleClickImage = (e: any) => {
+        e.preventDefault();
         setShowFullSize(!showFullSize);
+        setSrcImg(e.target.getAttribute('src'))
     };
 
     return (
@@ -81,7 +83,7 @@ function Gallery() {
                     }}
                 >
                     <Image
-                        src="/images/gallery/quote.jpg"
+                        src={srcImg}
                         width="200"
                         height="100"
                         alt={"aa"}
