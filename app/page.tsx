@@ -1,25 +1,42 @@
 "use client";
 
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import Countdown from "./components/Countdown";
 import Hero from "./components/Hero";
 import WeddingEvents from "./components/WeddingEvents";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import {RevealWrapper} from "next-reveal";
+import useSound from "use-sound";
 
 export default function Home() {
-    const [currentOverflow, setCurrentOverflow] = useState("auto");
+    const [play, {sound}] = useSound("/audio/backsound.mp3", {
+        volume: 0.5,
+        interrupt: true
+    });
 
     useEffect(() => {
-        window.scrollTo({top: 0, behavior: "smooth"});
-        document.body.style.overflowY = currentOverflow;
-    }, [currentOverflow]);
+        const handleScroll = () => {
+            if (sound && sound.playing()) return;
+            // Bắt đầu phát âm thanh khi người dùng cuộn trang
+            play();
+        };
 
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [play]);
+
+    const handlePlay = () => {
+        if (sound && sound.playing()) return;
+        play();
+    }
     return (
         <main className="max-w-[34.125rem] mx-auto">
             <RevealWrapper duration={1500}>
-                <Hero setCurrentOverflow={setCurrentOverflow}/>
+                <Hero/>
             </RevealWrapper>
             <Countdown/>
             <WeddingEvents/>

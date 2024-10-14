@@ -1,27 +1,9 @@
 "use client";
 
-import React, {useEffect} from "react";
-import useSound from "use-sound";
-import {RevealWrapper} from "next-reveal";
+import React from "react";
 
-function Hero({
-                  setCurrentOverflow,
-              }: {
-    setCurrentOverflow: React.Dispatch<React.SetStateAction<string>>;
-}) {
-    const [play, {sound}] = useSound("/audio/backsound.mp3", {
-        volume: 0.5,
-        interrupt: true
-    });
+function Hero() {
 
-    useEffect(() => {
-        play();
-    });
-
-    const handlePlay = () => {
-        if (sound && sound.playing()) return;
-        play();
-    }
 
     return (
         <section id="hero">

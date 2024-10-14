@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import {FaQuoteRight} from "react-icons/fa";
 import {RevealWrapper} from "next-reveal";
-import Image from "next/image";
-import {images} from "next/dist/build/webpack/config/blocks/images";
+import {Image} from 'antd';
+import Carousel from "react-multi-carousel";
+import 'react-multi-carousel/lib/styles.css'; // Import CSS styles
 
-function Gallery() {
+
+function Gallery(this: any) {
     const [showFullSize, setShowFullSize] = useState(false);
     const [srcImg, setSrcImg] = useState("");
 
@@ -12,6 +14,73 @@ function Gallery() {
         e.preventDefault();
         setShowFullSize(!showFullSize);
         setSrcImg(e.target.getAttribute('src'))
+    };
+
+    const responsive = {
+        desktop: {
+            breakpoint: {max: 3000, min: 1024},
+            items: 3,
+            slidesToSlide: 3 // optional, default to 1.
+        },
+        tablet: {
+            breakpoint: {max: 1024, min: 464},
+            items: 2,
+            slidesToSlide: 2 // optional, default to 1.
+        },
+        mobile: {
+            breakpoint: {max: 464, min: 0},
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        }
+    };
+
+    const images = [
+        // {
+        //     src: '/images/gallery/JIN_2591.JPG',
+        //     alt: 'big-grid',
+        //     className: 'w-full h-96 object-cover object-bottom'
+        // },
+        {
+            src: '/images/gallery/JIN_2834.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3049.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3067.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3090.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3903.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3940.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_3954.JPG',
+            width: 200
+        },
+        {
+            src: '/images/gallery/JIN_4016b.JPG',
+            width: 200
+        }
+    ];
+
+    const contentStyle = {
+        margin: 0,
+        height: '160px',
+        color: '#fff',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#364d79',
     };
 
     return (
@@ -26,7 +95,7 @@ function Gallery() {
                     <div className="flex flex-col items-center text-center gap-4 my-10">
                         <img
                             onClick={handleClickImage}
-                            src="/images/gallery/quote.jpg"
+                            src="/images/gallery/JIN_3090.JPG"
                             alt="quote"
                             className="w-[170px] h-[220px] object-cover cursor-pointer"
                         />
@@ -44,32 +113,67 @@ function Gallery() {
                         </RevealWrapper>
                     </div>
                     <RevealWrapper origin="top" duration={1500}>
-                        <img
-                            src="/images/gallery/bigGrid.jpg"
-                            alt="big-grid"
-                            className="w-full h-96 object-cover object-bottom"
-                        />
-                    </RevealWrapper>
-                    <RevealWrapper origin="top" duration={1500}>
-                        <div className="grid grid-cols-3 gap-1 mt-1">
-                            <img
-                                src="/images/gallery/grid-1.jpg"
-                                alt="grid-1"
-                                className="h-32 object-cover w-full"
+                        <Image.PreviewGroup
+                            preview={{
+                                onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
+                            }}
+                        >
+                            <Image
+                                src={'/images/gallery/JIN_2591.JPG'}
+                                alt={'JIN_2591.JPG'}
+                                className='w-full h-96 object-cover object-bottom'
                             />
-                            <img
-                                src="/images/gallery/grid-2.jpg"
-                                alt="grid-2"
-                                className="h-32 object-cover w-full"
-                            />
-                            <img
+                            <Carousel
+                                swipeable={false}
+                                draggable={false}
+                                showDots={true}
+                                responsive={responsive}
+                                ssr={true} // means to render carousel on server-side.
+                                infinite={true}
+                                // autoPlay={this.props.deviceType !== "mobile"}
+                                autoPlaySpeed={1000}
+                                keyBoardControl={true}
+                                customTransition="all .5"
+                                transitionDuration={500}
+                                containerClass="carousel-container"
+                                removeArrowOnDeviceType={["tablet", "mobile"]}
+                                // deviceType={this.props.deviceType}
+                                dotListClass="custom-dot-list-style"
+                                itemClass="carousel-item-padding-40-px"
+                            >
+                                {images.map((image, index) => (
+                                    <Image
+                                        key={index}
+                                        src={image.src}
+                                        // alt={image.alt}
+                                        // className={image.className}
+                                        width={image.width}
+                                    />
+                                ))}
+                            </Carousel>
 
-                                src="/images/gallery/grid-3.jpg"
-                                alt="grid-3"
-                                className="h-32 object-cover w-full"
-                            />
-                        </div>
+                        </Image.PreviewGroup>
                     </RevealWrapper>
+                    {/*<RevealWrapper origin="top" duration={1500}>*/}
+                    {/*<div className="grid grid-cols-3 gap-1 mt-1">*/}
+                    {/*    <img*/}
+                    {/*        src="/images/gallery/grid-1.jpg"*/}
+                    {/*        alt="grid-1"*/}
+                    {/*        className="h-32 object-cover w-full"*/}
+                    {/*    />*/}
+                    {/*    <img*/}
+                    {/*        src="/images/gallery/grid-2.jpg"*/}
+                    {/*        alt="grid-2"*/}
+                    {/*        className="h-32 object-cover w-full"*/}
+                    {/*    />*/}
+                    {/*    <img*/}
+
+                    {/*        src="/images/gallery/grid-3.jpg"*/}
+                    {/*        alt="grid-3"*/}
+                    {/*        className="h-32 object-cover w-full"*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+                    {/*</RevealWrapper>*/}
                 </div>
             </div>
             {showFullSize && (
