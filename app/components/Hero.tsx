@@ -8,7 +8,7 @@ function Hero() {
     return (
         <section id="hero">
             <div
-                className="min-h-screen bg-[url('/images/hero/bg.jpg')] bg-cover bg-center text-white relative">
+                className="min-h-screen bg-[url('https://lh3.googleusercontent.com/pw/AP1GczNNR-hiQ8RSu0hZyGQJuy_hLFjaR2aC6OxmHL5YpiaLG_ZFf1THustfyenOUjMPnwqAKlnVDnXojtFS5WWEpdSKBhEwl7ry0Xc1E0u1e4-z5eXWxQkpgH1sqUXrOeRz8S0gWyzjII_YlI7cZcbKMm-v=w635-h953-s-no-gm?authuser=0')] bg-cover bg-center text-white relative">
                 <div className="absolute inset-0 z-10"/>
                 <div
                     className="animate__animated animate__fadeInLeft flex flex-col justify-between pt-4 md:pt-28  px-12 text-center z-20 relative h-screen">

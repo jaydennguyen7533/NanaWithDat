@@ -6,7 +6,7 @@ function WeddingEvents() {
     return (
         <section id="wedding-events">
             <div
-                className="bg-[url('/images/weddingEvents/bg.jpeg')] bg-cover bg-center relative px-8 pt-8 pb-12 lg:px-10 lg:pt-10 lg:pb-14">
+                className="relative px-8 pt-8 pb-12 lg:px-10 lg:pt-10 lg:pb-14">
                 <div
                     className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
                 <div className="z-10 relative">
@@ -16,7 +16,7 @@ function WeddingEvents() {
                     <RevealWrapper duration={1500} origin="bottom">
                         <div className="mt-10">
                             <img
-                                src="/images/weddingEvents/groom.jpg"
+                                src="https://lh3.googleusercontent.com/pw/AP1GczMceN24kUAD2QygHyqvdtBDDYR8vup_WJOvI1lQgUE9-MVGlSwMXccM9eHzhT6OTvUdXK2LnQB7aw9sF79QbpT7zDKWlBm9Oy9QmpkyfAg6RPLX1U9xruNj8ttmsPt9GfvKn5raHQSg8Xma2-xlrxP4=w635-h953-s-no-gm?authuser=0"
                                 alt="groom"
                                 className="groom-event-img w-full h-80 object-cover rounded-t-[1.25rem]"
                             />
@@ -56,7 +56,7 @@ function WeddingEvents() {
                     <RevealWrapper duration={1500} origin="bottom">
                         <div className="mt-6">
                             <img
-                                src="/images/weddingEvents/bride.jpg"
+                                src="https://lh3.googleusercontent.com/pw/AP1GczOQQA13Rq4PjuKxw-tBcqLcCFKsztQsN17JxuVYXmicJ30jAesugQMpBbGN1nPcszm93Hwery1Dq1Z1oCG2moIZVvFDH7btZ1xxgzgU9nvLU2-gah3YBity_LPx4JCY4jqa-7wl-o4BEu5FYkaX49P6=w635-h953-s-no-gm?authuser=0"
                                 alt="akad"
                                 className="bride-event-img w-full h-72 object-cover rounded-t-[1.25rem] object-left"
                             />

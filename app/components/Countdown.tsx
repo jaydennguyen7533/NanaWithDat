@@ -30,7 +30,7 @@ function CountdownComp() {
     return (
         <section id="countdown">
             <div
-                className="min-h-screen bg-[url('/images/countdown/bg.jpg')] bg-cover bg-[44.5%] text-white relative py-28 flex items-end">
+                className="min-h-screen bg-[url('https://lh3.googleusercontent.com/pw/AP1GczOj9tdmGQ_7Ceuj65BFs4g9H-KemhD4MksGPzlzYlRenFB5w8e2K1m9KyrvaRZL9ACTapQVVt8v0RvHd3qIkxn2QcJcqc66pWlvIjHQG46nqflVplcTpfQOlva3Sq5DBPKxRZczyyzLJOpPAjAjDUkB=w635-h953-s-no-gm?authuser=0')] bg-cover bg-[44.5%] text-white relative py-28 flex items-end">
                 <div className="absolute inset-0 bg-black/30"/>
                 <div className="relative py-8 px-10 w-full">
                     <div

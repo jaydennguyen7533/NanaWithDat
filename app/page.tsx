@@ -8,6 +8,8 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import {RevealWrapper} from "next-reveal";
 import useSound from "use-sound";
+import {useGesture} from 'react-use-gesture';
+
 
 export default function Home() {
     const [play, {sound}] = useSound("/audio/backsound.mp3", {
@@ -16,17 +18,24 @@ export default function Home() {
     });
 
     useEffect(() => {
-        const handleScroll = () => {
-            if (sound && sound.playing()) return;
-            // Bắt đầu phát âm thanh khi người dùng cuộn trang
+        window.scrollTo({top: 0, behavior: "smooth"});
+    }, []);
+
+    useGesture({
+        onWheel: ({event}) => {
+            // Phát nhạc khi scroll
             play();
-        };
+        },
+        onDrag: ({event}) => {
+            // Phát nhạc khi swipe trên màn hình
+            play();
+        }
+    });
 
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+    useEffect(() => {
+        if (sound && sound.playing()) return;
+        // Bắt đầu phát âm thanh khi người dùng cuộn trang
+        play();
     }, [play]);
 
     const handlePlay = () => {
