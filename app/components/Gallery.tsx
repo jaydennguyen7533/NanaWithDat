@@ -95,21 +95,21 @@ function Gallery(this: any) {
                     }}
                 >
                     <div className="z-10 relative">
-                        <h1 className="text-xl italic font-light text-center text-white">
+                        <h1 className="text-xl italic font-light text-center text-white pt-8">
                             Our Gallery
                         </h1>
                         <div className="flex flex-col items-center text-center gap-4 my-10">
 
-                            <Image
-                                src={'https://lh3.googleusercontent.com/pw/AP1GczO530tbktLvkMPuTKoHYkaAAf0ir5CgI4ZEoKf9cS1qP3_0hESdphuz0SoC6PPkR1Xp8uW0TtADCPfb0b-8Ymh6Mbkk49LQFJkeNX6EuztjHOXWK9xtIfDEj7IEQU7HG0YR8AjMx_amXOWNB5NE2Sc4=w635-h953-s-no-gm?authuser=0'}
-                                alt={'quote'}
-                            />
                             <RevealWrapper origin="top" duration={1500}>
-                            <span>
-                            <FaQuoteRight color="#4242427A" fontSize="1.75rem"/>
-                            </span>
+                                <Image
+                                    src={'https://lh3.googleusercontent.com/pw/AP1GczO530tbktLvkMPuTKoHYkaAAf0ir5CgI4ZEoKf9cS1qP3_0hESdphuz0SoC6PPkR1Xp8uW0TtADCPfb0b-8Ymh6Mbkk49LQFJkeNX6EuztjHOXWK9xtIfDEj7IEQU7HG0YR8AjMx_amXOWNB5NE2Sc4=w635-h953-s-no-gm?authuser=0'}
+                                    alt={'quote'}
+                                />
+                                <span>
+                                    <FaQuoteRight color="#4242427A" fontSize="1.75rem"/>
+                                </span>
                             </RevealWrapper>
-                            <RevealWrapper origin="top" duration={1500}>
+                            <RevealWrapper origin="bottom" duration={1500}>
                                 <p className="text-[0.8rem] font-light leading-loose px-8">
                                     From when I first saw you, I felt that I was finally home, all I
                                     want is to make your dreams come true and share our dreams
@@ -162,11 +162,14 @@ function Gallery(this: any) {
             <div className="relative px-8 pb-16">
                 <div
                     className="bg-transparent bg-[linear-gradient(180deg,#EAEAEA_53%,#424242_100%)] absolute inset-0"></div>
-                <Image
-                    src='https://lh3.googleusercontent.com/pw/AP1GczMcHhCp56oGnQeNIN7Iz5GmxXkxQw99pB60BKZ-gJhQnb9MM6okDCsfGgv0k7Fx8VGSdc0jrU4AYbpaUkAUtaATOu-kl3TyLvicdges10ndotFWYB8CbdRQ0FhLYKd8rTbi7IPsnz18D7FrIk9uqq4P=w1430-h953-s-no-gm?authuser=0'
-                    alt={'JIN_2591'}
-                    className='w-full h-96 object-cover object-bottom'
-                />
+                <RevealWrapper origin="top" duration={2000}>
+                    <Image
+                        src='https://lh3.googleusercontent.com/pw/AP1GczMcHhCp56oGnQeNIN7Iz5GmxXkxQw99pB60BKZ-gJhQnb9MM6okDCsfGgv0k7Fx8VGSdc0jrU4AYbpaUkAUtaATOu-kl3TyLvicdges10ndotFWYB8CbdRQ0FhLYKd8rTbi7IPsnz18D7FrIk9uqq4P=w1430-h953-s-no-gm?authuser=0'
+                        alt={'JIN_2591'}
+                        className='w-full h-96 object-cover object-bottom'
+                    />
+                </RevealWrapper>
+
             </div>
             {/*{showFullSize && (*/}
             {/*    <div*/}
