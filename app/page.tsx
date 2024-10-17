@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import {RevealWrapper} from "next-reveal";
 import useSound from "use-sound";
 import {useGesture} from 'react-use-gesture';
+import Gift from "@/app/components/Gift";
 
 
 export default function Home() {
@@ -51,6 +52,7 @@ export default function Home() {
             <WeddingEvents/>
             {/*<Reservation/>*/}
             <Gallery/>
+            <Gift/>
             <Footer/>
         </main>
     );

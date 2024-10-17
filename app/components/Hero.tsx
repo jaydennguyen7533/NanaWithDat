@@ -11,10 +11,10 @@ function Hero() {
                 className="min-h-screen bg-[url('https://lh3.googleusercontent.com/pw/AP1GczNNR-hiQ8RSu0hZyGQJuy_hLFjaR2aC6OxmHL5YpiaLG_ZFf1THustfyenOUjMPnwqAKlnVDnXojtFS5WWEpdSKBhEwl7ry0Xc1E0u1e4-z5eXWxQkpgH1sqUXrOeRz8S0gWyzjII_YlI7cZcbKMm-v=w635-h953-s-no-gm?authuser=0')] bg-cover bg-center text-white relative">
                 <div className="absolute inset-0 z-10"/>
                 <div
-                    className="animate__animated animate__fadeInLeft flex flex-col justify-between pt-4 md:pt-28  px-12 text-center z-20 relative h-screen">
+                    className="animate__animated animate__fadeInLeft flex flex-col pt-4 md:pt-24  px-12 text-center z-20 relative h-screen">
                     {/*<RevealWrapper duration={4000} origin="top">*/}
-                    <div>
-                        <p className="font-extralight text-[1rem]">The Wedding</p>
+                    <p className="font-extralight text-[1.5rem]">The Wedding</p>
+                    <div className="flex flex-row justify-center">
                         <h1 className="text-5xl font-light mt-2 nameStyle">Khắc Đạt <img
                             src="/images/hero/love-icon.gif"
                             className="loveIcon" alt="My GIF"/> Chu

@@ -43,13 +43,19 @@
 
 #wedding-events {
     .groom-event-img {
-        object-position: 0 40%;
+        object-position: 0 30%;
     }
     .bride-event-img {
         object-position: 0 46%;
     }
 }
 
-:where(.css-dev-only-do-not-override-1hpnbz2).ant-image-preview-root .ant-image-preview-img {
+.ant-image-preview-root .ant-image-preview-img {
     max-height: 100%;
+}
+
+#gift {
+    .gift {
+        height: 80vh;
+    }
 }

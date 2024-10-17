@@ -52,10 +52,10 @@ function Gallery(this: any) {
         'https://lh3.googleusercontent.com/pw/AP1GczNPgAOM1eBKroNfuj4q7JWthoq8zK1Ho4oAMstCxS3FqqVgtvElDBo-iM0Z6y1rCWOYWLDL6fgAl2cBnDKUMg2PH4jciQKORFLOvnj8X0Tq1phhT-Gwm1hBw7m5JkDPcVb2T5jdkhVFli0nvZa0g9Ad=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczPONTzY42klyeJj_KqLvVVBYuxeSgkVpfW5DbNXkmu__o3M4cYM5ov5e4OBVb4fZpM3uFu0p3a7k-YVpRur4hOa6lfQ2Onb7iHh7neGZl49TjQvBqFbwUxbiSGxLUt-UyRzcPH9kyqsReacENYQhdYe=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczP1EPphvRPqK7ajkNvYbYxKkG6wIsmMN8DqMekeNqJNBMRtrqBY-LyKVPh8T0tX3DhFJwDE3fl8j2M9KUGCcx9RbKcf2PFCDRTy3lCoFDqzC9Y8QmG4iQBZ-mRl_3ZAT2LzE88mKNAxQMP91eekWj0I=w635-h953-s-no-gm?authuser=0',
-        'https://lh3.googleusercontent.com/pw/AP1GczM4pG7FUbuCiqIOKs9AlGjy9g_NavvhAg3FzzxVQpkuoJDBkY4EFUOCEEukuQIej58whLyrdQttbqcEFsDdKtsmDXgPu-eQ96-Vs7JxgbRRC3V0hx5zZ194jKE38bu1E6XGpegrp7XPsoOlKqQxhTRy=w635-h953-s-no-gm?authuser=0',
+        // 'https://lh3.googleusercontent.com/pw/AP1GczM4pG7FUbuCiqIOKs9AlGjy9g_NavvhAg3FzzxVQpkuoJDBkY4EFUOCEEukuQIej58whLyrdQttbqcEFsDdKtsmDXgPu-eQ96-Vs7JxgbRRC3V0hx5zZ194jKE38bu1E6XGpegrp7XPsoOlKqQxhTRy=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczMD1TsR9169337RP6Aa00gIqBDWYxxDB9Js84EkeuUnIEgStwPv6njc-Jw6CCML_67Kg3zSbzPEl6AzfFGDoQqBAbJD7aDon0y0me3Plc20FD6UYhBgkViUmultYcUGMJe3ax_S_RV5QjLtg68vp3hc=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczMDrtRVjnHmgOHCE_P1AVkD-7ZGrRUUq5yeket0eaXpFZsuF5RdZcBms_X3PINxNfFbVb4skXUbQZFNKdENoPcX-k8l_WbvJ3sj9CcQ20PeZEZepUK_aYsW2iLOJz5PwR9GDAsNp0-meaavu1hh6PpK=w635-h953-s-no-gm?authuser=0',
-        'https://lh3.googleusercontent.com/pw/AP1GczNZCDKAXmOmmo1FdrksdiZAwLLEei6_9ovetGIYrD8Gm2ydUbpX-eS1exrRlTZhS7lhv0lncGsB2H9rKHfI4yds3E-lp399oPcJ0or_OLwGiBE8TDxOnnV_-tQ6sWpCzg8BQFg9kCgNTNhdm5_zi53J=w635-h953-s-no-gm?authuser=0',
+        // 'https://lh3.googleusercontent.com/pw/AP1GczNZCDKAXmOmmo1FdrksdiZAwLLEei6_9ovetGIYrD8Gm2ydUbpX-eS1exrRlTZhS7lhv0lncGsB2H9rKHfI4yds3E-lp399oPcJ0or_OLwGiBE8TDxOnnV_-tQ6sWpCzg8BQFg9kCgNTNhdm5_zi53J=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczNNR-hiQ8RSu0hZyGQJuy_hLFjaR2aC6OxmHL5YpiaLG_ZFf1THustfyenOUjMPnwqAKlnVDnXojtFS5WWEpdSKBhEwl7ry0Xc1E0u1e4-z5eXWxQkpgH1sqUXrOeRz8S0gWyzjII_YlI7cZcbKMm-v=w635-h953-s-no-gm?authuser=0',
 
         // phong trang
@@ -68,9 +68,9 @@ function Gallery(this: any) {
         'https://lh3.googleusercontent.com/pw/AP1GczOj9tdmGQ_7Ceuj65BFs4g9H-KemhD4MksGPzlzYlRenFB5w8e2K1m9KyrvaRZL9ACTapQVVt8v0RvHd3qIkxn2QcJcqc66pWlvIjHQG46nqflVplcTpfQOlva3Sq5DBPKxRZczyyzLJOpPAjAjDUkB=w635-h953-s-no-gm?authuser=0',
 
         // san thuong
-        'https://lh3.googleusercontent.com/pw/AP1GczOI1PK7NNLLOcFkHlMn0_r4JpOzfa067bc0P0v4YarvkZ4jZ7NgcI1AA51E-RjAtsAiE2a_H36mh4Ibn8m2k-wGvxDcOo7DP-qUFbEthxKtsa_bD6UpAV8CZk1b563Tw7yiBRmht6eF03x5arZCc4mV=w635-h953-s-no-gm?authuser=0',
+        // 'https://lh3.googleusercontent.com/pw/AP1GczOI1PK7NNLLOcFkHlMn0_r4JpOzfa067bc0P0v4YarvkZ4jZ7NgcI1AA51E-RjAtsAiE2a_H36mh4Ibn8m2k-wGvxDcOo7DP-qUFbEthxKtsa_bD6UpAV8CZk1b563Tw7yiBRmht6eF03x5arZCc4mV=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczPp0NZROfBk7DZ3oy2mw7-UOWJLnBMGpqI2hhVmlsN27loOCGkz1B_sntoGXlqKnpZIu3zw-74bKZ-1U4X3aDqFU8zq5vZ4bVXK_IWPWz7EGBHGmwwpqy3zUIHQR4ced56KPh3Y6TZcHhAJICziZ9ZG=w635-h953-s-no-gm?authuser=0',
-        'https://lh3.googleusercontent.com/pw/AP1GczNnveOCViwiTM-FLOz3CXw4EkNbSa-dIDA_Po4PzbmEh8Apo_ALRXLrV_g0TYkX_bAzqPvxwZmZgOJkOlsPZWWFIB2UHnSbW3m4YxGz4oAM3tOlCIK2yPtyxjIAEF9HrdutOgQx8CPgerIJYedz7phy=w635-h953-s-no-gm?authuser=0',
+        // 'https://lh3.googleusercontent.com/pw/AP1GczNnveOCViwiTM-FLOz3CXw4EkNbSa-dIDA_Po4PzbmEh8Apo_ALRXLrV_g0TYkX_bAzqPvxwZmZgOJkOlsPZWWFIB2UHnSbW3m4YxGz4oAM3tOlCIK2yPtyxjIAEF9HrdutOgQx8CPgerIJYedz7phy=w635-h953-s-no-gm?authuser=0',
         'https://lh3.googleusercontent.com/pw/AP1GczOf4Hz-jVAt0vI6X77c_C3sOtHJBzri64EBO2Gq9xLOWqPgI9y7tQYTfjO8Z94Bgy6XfNfL687TnfeVAhc6ajtohO-7-iaThM6dvBCpQhx8wqKEa_Y2jWDjIT0bGlh_34x4ecBhBGsqfx9RPORMlpIy=w635-h953-s-no-gm?authuser=0',
 
     ];
@@ -86,7 +86,7 @@ function Gallery(this: any) {
 
     return (
         <section id="gallery">
-            <div className="relative px-8 py-16">
+            <div className="relative px-8 py-2">
                 <div
                     className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
                 <Image.PreviewGroup
@@ -124,20 +124,18 @@ function Gallery(this: any) {
                                 className='w-full h-96 object-cover object-bottom'
                             />
                             <Carousel
-                                swipeable={false}
-                                draggable={false}
+                                // swipeable={false}
+                                // draggable={false}
                                 showDots={true}
                                 responsive={responsive}
                                 ssr={true} // means to render carousel on server-side.
                                 infinite={true}
-                                // autoPlay={this.props.deviceType !== "mobile"}
-                                autoPlaySpeed={1000}
+                                autoPlay={true}
+                                autoPlaySpeed={3000}
                                 keyBoardControl={true}
                                 customTransition="all .5"
                                 transitionDuration={500}
                                 containerClass="carousel-container"
-                                removeArrowOnDeviceType={["tablet", "mobile"]}
-                                // deviceType={this.props.deviceType}
                                 dotListClass="custom-dot-list-style"
                                 itemClass="carousel-item-padding-40-px"
                             >
@@ -151,19 +149,24 @@ function Gallery(this: any) {
                                     />
                                 ))}
                             </Carousel>
-                            <Image
-                                src='https://lh3.googleusercontent.com/pw/AP1GczOPrtLhwNdbsZpmmGtLina_IDGLLYi0VEW6tIgNXw0UemOneF7trmj-UVoAz40yoAKoU_S2grmfsbh72JIojYLNGVOcfWqe-V9SHKS8xtlYtvnmSkh6D-KK0Gl0TEkSTzuA005tG60X4VzVpO0qPzOq=w1430-h953-s-no-gm?authuser=0'
-                                alt={'JIN_2591'}
-                                className='w-full h-96 object-cover object-bottom'
-                            />
-                            <Image
-                                src='https://lh3.googleusercontent.com/pw/AP1GczMcHhCp56oGnQeNIN7Iz5GmxXkxQw99pB60BKZ-gJhQnb9MM6okDCsfGgv0k7Fx8VGSdc0jrU4AYbpaUkAUtaATOu-kl3TyLvicdges10ndotFWYB8CbdRQ0FhLYKd8rTbi7IPsnz18D7FrIk9uqq4P=w1430-h953-s-no-gm?authuser=0'
-                                alt={'JIN_2591'}
-                                className='w-full h-96 object-cover object-bottom'
-                            />
+                            {/*<Image*/}
+                            {/*    src='https://lh3.googleusercontent.com/pw/AP1GczOPrtLhwNdbsZpmmGtLina_IDGLLYi0VEW6tIgNXw0UemOneF7trmj-UVoAz40yoAKoU_S2grmfsbh72JIojYLNGVOcfWqe-V9SHKS8xtlYtvnmSkh6D-KK0Gl0TEkSTzuA005tG60X4VzVpO0qPzOq=w1430-h953-s-no-gm?authuser=0'*/}
+                            {/*    alt={'JIN_2591'}*/}
+                            {/*    className='w-full h-96 object-cover object-bottom'*/}
+                            {/*/>*/}
+
                         </RevealWrapper>
                     </div>
                 </Image.PreviewGroup>
+            </div>
+            <div className="relative px-8 pb-16">
+                <div
+                    className="bg-transparent bg-[linear-gradient(180deg,#EAEAEA_53%,#424242_100%)] absolute inset-0"></div>
+                <Image
+                    src='https://lh3.googleusercontent.com/pw/AP1GczMcHhCp56oGnQeNIN7Iz5GmxXkxQw99pB60BKZ-gJhQnb9MM6okDCsfGgv0k7Fx8VGSdc0jrU4AYbpaUkAUtaATOu-kl3TyLvicdges10ndotFWYB8CbdRQ0FhLYKd8rTbi7IPsnz18D7FrIk9uqq4P=w1430-h953-s-no-gm?authuser=0'
+                    alt={'JIN_2591'}
+                    className='w-full h-96 object-cover object-bottom'
+                />
             </div>
             {/*{showFullSize && (*/}
             {/*    <div*/}
