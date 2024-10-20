@@ -29,8 +29,8 @@ function Gallery(this: any) {
         },
         mobile: {
             breakpoint: {max: 464, min: 0},
-            items: 1,
-            slidesToSlide: 1 // optional, default to 1.
+            items: 2,
+            slidesToSlide: 2 // optional, default to 1.
         }
     };
 
@@ -129,15 +129,15 @@ function Gallery(this: any) {
                                 showDots={true}
                                 responsive={responsive}
                                 ssr={true} // means to render carousel on server-side.
-                                infinite={true}
+                                // infinite={true}
                                 autoPlay={true}
-                                autoPlaySpeed={3000}
+                                autoPlaySpeed={2000}
                                 keyBoardControl={true}
-                                customTransition="all .5"
-                                transitionDuration={500}
-                                containerClass="carousel-container"
-                                dotListClass="custom-dot-list-style"
-                                itemClass="carousel-item-padding-40-px"
+                                // customTransition="all .5"
+                                // transitionDuration={500}
+                                // containerClass="carousel-container"
+                                // dotListClass="custom-dot-list-style"
+                                // itemClass="carousel-item-padding-40-px"
                             >
                                 {images.map((image, index) => (
                                     <Image
